@@ -86,7 +86,7 @@ function NavBar() {
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
-                  <span>Kapcsolat</span>
+                  <span>Let's connect</span>
                 </button>
               </HashLink>
             </span>
