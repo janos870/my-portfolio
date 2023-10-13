@@ -36,6 +36,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
+            <h2>My Folio</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
