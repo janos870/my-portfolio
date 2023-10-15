@@ -1,10 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg"
-import meter2 from "../assets/img/meter2.svg"
-import meter3 from "../assets/img/meter3.svg"
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
+import ReactProgress from "./progress/ReactProgress";
+import HtmlProgress from "./progress/HtmlProgress";
+import CssProgress from "./progress/CssProgress";
+import JsProgress from "../components/progress/JsProgress";
+import html from "../assets/img/html.png";
+import css from "../assets/img/css-3.png";
+import js from "../assets/img/js.png";
+import atom from "../assets/img/atom.png";
 
 function Skills() {
   const responsive = {
@@ -44,23 +49,31 @@ function Skills() {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="image1" />
-                  <h5>Web Development</h5>
+                  <HtmlProgress />
+                  <h5>HTML</h5>
+                  <img src={html} alt="htm img" width="50" />
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="image2" />
-                  <h5>Brand Identity</h5>
+                  <CssProgress />
+                  <h5>CSS</h5>
+                  <img src={css} alt="css img" />
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="image3" />
-                  <h5>Logo Design</h5>
+                  <JsProgress />
+                  <h5>JavaScript</h5>
+                  <img src={js} alt="js img"/>
+                </div>
+                <div className="item">
+                  <ReactProgress />
+                  <h5>REACT</h5>
+                  <img src={atom} alt="atom img" />
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt=""/>
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 }
