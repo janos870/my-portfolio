@@ -87,10 +87,16 @@ select:focus {
 
 p.success {
   color: green;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
 }
 
 p.danger {
   color: red;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
 }
 /************ Navbar Css ************/
 nav.navbar {

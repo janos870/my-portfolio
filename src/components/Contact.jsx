@@ -24,6 +24,16 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (
+      formDetails.firstName === "" ||
+      formDetails.lastName === "" ||
+      formDetails.email === "" ||
+      formDetails.phone === "" ||
+      formDetails.message === ""
+    ) {
+      setStatus({ success: false, message: "Please fill out all fields." });
+      return;
+    }
     setButtonText("Sending...");
     let response = await fetch("http://localhost:5000/contact", {
       method: "POST",
@@ -97,9 +107,7 @@ function Contact() {
                   <button type="submit">
                     <span>{buttonText}</span>
                   </button>
-                </Col>
-                {status.message && (
-                  <Col>
+                  {status.message && (
                     <p
                       className={
                         status.success === false ? "danger" : "success"
@@ -107,8 +115,8 @@ function Contact() {
                     >
                       {status.message}
                     </p>
-                  </Col>
-                )}
+                  )}
+                </Col>
               </Row>
             </form>
           </Col>
