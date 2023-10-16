@@ -63,8 +63,8 @@ function Projects() {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsun</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsun</Tab.Pane>
+                <Tab.Pane eventKey="second"><h5>No project available</h5></Tab.Pane>
+                <Tab.Pane eventKey="third"><h5>No project available</h5></Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
