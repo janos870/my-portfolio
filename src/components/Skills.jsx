@@ -6,10 +6,15 @@ import ReactProgress from "./progress/ReactProgress";
 import HtmlProgress from "./progress/HtmlProgress";
 import CssProgress from "./progress/CssProgress";
 import JsProgress from "../components/progress/JsProgress";
+import BootstrapProgress from "./progress/BootstrapProgress";
+import NodeProgress from "./progress/NodeProgress";
 import html from "../assets/img/html.png";
 import css from "../assets/img/css-3.png";
 import js from "../assets/img/js.png";
 import atom from "../assets/img/atom.png";
+import bootstrap from "../assets/img/bootstrap.png"
+import nodejs from "../assets/img/nodejs.png"
+
 
 function Skills() {
   const responsive = {
@@ -50,12 +55,12 @@ function Skills() {
               >
                 <div className="item">
                   <HtmlProgress />
-                  <h5>HTML</h5>
+                  <h5>Html</h5>
                   <img src={html} alt="htm img" width="50" />
                 </div>
                 <div className="item">
                   <CssProgress />
-                  <h5>CSS</h5>
+                  <h5>Css</h5>
                   <img src={css} alt="css img" />
                 </div>
                 <div className="item">
@@ -64,9 +69,19 @@ function Skills() {
                   <img src={js} alt="js img"/>
                 </div>
                 <div className="item">
+                  <NodeProgress />
+                  <h5>Nodejs-Express</h5>
+                  <img src={nodejs} alt="js img"/>
+                </div>
+                <div className="item">
                   <ReactProgress />
-                  <h5>REACT</h5>
+                  <h5>React</h5>
                   <img src={atom} alt="atom img" />
+                </div>
+                <div className="item">
+                  <BootstrapProgress />
+                  <h5>BootStrap</h5>
+                  <img src={bootstrap} alt="atom img" />
                 </div>
               </Carousel>
             </div>

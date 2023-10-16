@@ -41,13 +41,13 @@ function Projects() {
             <Tab.Container id="projects-tab" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-item-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab one</Nav.Link>
+                  <Nav.Link eventKey="first">All</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab two</Nav.Link>
+                  <Nav.Link eventKey="second">Complete</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab three</Nav.Link>
+                  <Nav.Link eventKey="third">Incomplete</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
