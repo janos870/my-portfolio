@@ -12,18 +12,18 @@ function Projects() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed rutrum dui. Aliquam erat volutpat. Pellentesque vehicula ornare eleifend. Nullam in ligula massa.",
       imgUrl: projImage1,
     },
-    {
-      title: "My Blog",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed rutrum dui. Aliquam erat volutpat. Pellentesque vehicula ornare eleifend. Nullam in ligula massa.",
-      imgUrl: projImage1,
-    },
-    {
-      title: "Help Desk",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed rutrum dui. Aliquam erat volutpat. Pellentesque vehicula ornare eleifend. Nullam in ligula massa.",
-      imgUrl: projImage1,
-    },
+    // {
+    //   title: "My Blog",
+    //   description:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed rutrum dui. Aliquam erat volutpat. Pellentesque vehicula ornare eleifend. Nullam in ligula massa.",
+    //   imgUrl: projImage1,
+    // },
+    // {
+    //   title: "Help Desk",
+    //   description:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed rutrum dui. Aliquam erat volutpat. Pellentesque vehicula ornare eleifend. Nullam in ligula massa.",
+    //   imgUrl: projImage1,
+    // },
   ];
   return (
     <section className="project" id="projects">
