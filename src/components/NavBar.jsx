@@ -6,7 +6,6 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -75,15 +74,27 @@ function NavBar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <Link href="#">
+                <a
+                  href="https://www.linkedin.com/in/janos-balogh-412657257/?originalSubdomain=hu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon1} alt="" />
-                </Link>
-                <Link href="#">
+                </a>
+                <a
+                  href="https://www.facebook.com/janos.balogh.5205/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon2} alt="" />
-                </Link>
-                <Link href="#">
+                </a>
+                <a
+                  href="https://www.instagram.com/janosbalogh87/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon3} alt="" />
-                </Link>
+                </a>
               </div>
               <HashLink to="#connect">
                 <button className="vvd">

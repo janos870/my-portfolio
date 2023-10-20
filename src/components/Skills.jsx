@@ -38,7 +38,7 @@ function Skills() {
   };
   return (
     <section className="skill" id="skills">
-      <Container>
+      <Container fluid="xs">
         <Row>
           <Col>
             <div className="skill-bx">

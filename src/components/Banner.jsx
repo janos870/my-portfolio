@@ -40,9 +40,9 @@ function Banner() {
             <span className='tagline'>Welcome to my Portfolio</span>
             <h1>{`Hi I'm, `} <span className='wrap'>{jobTitle}</span></h1>
             <p>Fusce blandit sagittis purus sit amet rhoncus. Nulla eu maximus elit. Sed luctus diam quis tincidunt gravida. Aliquam lacinia tempor metus id placerat. Nam ultrices erat nec mauris fermentum viverra</p>
-            <div className='d-flex'>
-              <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
-              <a href="/" className='ms-4 border p-2'> Download CV  <Download className='ms-2'/></a>
+            <div className='d-flex text-center me-2'>
+              {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button> */}
+              <a href="/" className='border p-2'> Download CV  <Download className='ms-2'/></a>
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
