@@ -51,7 +51,7 @@ function Skills() {
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="skill-slider"
+                className="skill-slider animate__animated animate__fadeInLeft"
               >
                 <div className="item">
                   <HtmlProgress />
